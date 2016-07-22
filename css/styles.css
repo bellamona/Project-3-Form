@@ -140,6 +140,7 @@ fieldset {
   border: none;
 }
 
+
 legend {
   font-size: 1.4em;
   margin-bottom: 10px;
@@ -154,6 +155,10 @@ label.light {
   font-weight: 300;
   display: inline;
 }
+
+select {
+    height:55px;
+  }
 
 input[placeholder] {
   background:#fdfee6;
@@ -215,10 +220,6 @@ input:focus, textarea:focus {
     display: inline-block;
     margin-left:50px;
    
-  }
-  
-  select {
-    height:55px;
   }
   
 
