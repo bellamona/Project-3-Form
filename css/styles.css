@@ -327,10 +327,25 @@ input:focus, textarea:focus {
    
   }
 
-  
+    #contact-info, #newsletter {
+    width:50%;
+  }
 }
   
- 
+
+  
+  @media screen and (min-width:1200px) {
+
+form {
+    max-width:1200px;
+  }
+  
+.inln {
+    margin-left:200px;
+  }
+
+} 
+
 
 
 /****** DRY CLASSES ******/
